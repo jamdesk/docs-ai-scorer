@@ -1,0 +1,17 @@
+# Study artifacts (not part of the scorer)
+results.json
+answer-quality.md
+final-scorecard.md
+quality-report.md
+
+# Article assets
+header.svg
+header.webp
+header.png
+header-alt.txt
+article.html
+ghost-post-id.txt
+ghost-post.json
+ghost-jwt
+ghost-upload.json
+ghost-response.json

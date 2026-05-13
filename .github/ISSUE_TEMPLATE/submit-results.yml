@@ -1,0 +1,44 @@
+name: Submit platform results
+description: Run docs-ai-scorer against a docs platform and submit your reproduction.
+title: "[results] <platform name>"
+labels: ["results-submission"]
+body:
+  - type: input
+    id: platform
+    attributes:
+      label: Platform name
+      placeholder: e.g. Docusaurus, GitBook, MyCustomDocs
+    validations:
+      required: true
+  - type: input
+    id: url1
+    attributes:
+      label: url1 (deeper content page)
+    validations:
+      required: true
+  - type: input
+    id: url2
+    attributes:
+      label: url2 (index / intro page)
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: Paste your score-docs.mjs JSON output
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: answer_quality
+    attributes:
+      label: Answer-quality grades (Q1-Q5, 0-3 each, with one-line reasoning per question)
+    validations:
+      required: false
+  - type: input
+    id: commit
+    attributes:
+      label: Commit hash you ran (so we can reproduce)
+      placeholder: e.g. abc123def
+    validations:
+      required: false

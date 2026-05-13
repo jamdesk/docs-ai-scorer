@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Docusaurus",
+    "url1": "https://docusaurus.io/docs/installation",
+    "url2": "https://docusaurus.io/docs"
+  },
+  {
+    "name": "Document360",
+    "url1": "https://docs.document360.com/docs/getting-started",
+    "url2": "https://docs.document360.com/docs"
+  },
+  {
+    "name": "GitBook",
+    "url1": "https://docs.gitbook.com/getting-started/quickstart",
+    "url2": "https://docs.gitbook.com"
+  },
+  {
+    "name": "Jamdesk",
+    "url1": "https://jamdesk.com/docs/quickstart",
+    "url2": "https://jamdesk.com/docs"
+  },
+  {
+    "name": "Mintlify",
+    "url1": "https://mintlify.com/docs/quickstart",
+    "url2": "https://mintlify.com/docs"
+  },
+  {
+    "name": "ReadMe.com",
+    "url1": "https://docs.readme.com/main/docs/quickstart",
+    "url2": "https://docs.readme.com"
+  },
+  {
+    "name": "Stripe CLI (plain MD on GitHub)",
+    "url1": "https://raw.githubusercontent.com/stripe/stripe-cli/master/ARCHITECTURE.md",
+    "url2": "https://raw.githubusercontent.com/stripe/stripe-cli/master/README.md"
+  }
+]
